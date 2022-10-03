@@ -1,0 +1,39 @@
+.feature{
+    margin-left: 1rem; 
+}
+.titleBox{
+    display: flex; 
+    background-color: var(--c-orange-light); 
+    margin-left: 1rem; 
+    align-items: center; 
+}
+
+.number{
+    background-color: var(--c-orange);
+    border-radius: 20px; 
+    padding: .3rem 1.2rem; 
+    color: #fff; 
+    font-weight: 500; 
+    translate: -10px 0; 
+}
+
+.title{
+    color: var(--c-blue); 
+    font-weight: 700; 
+    font-size: 1.1rem; 
+}
+.paragraph{
+    color: var(--c-gray); 
+    max-width: 25rem; 
+    margin-top: .8rem; 
+    font-size: .975rem; 
+}
+
+@media (min-width: 750px) {
+    .feature{
+        margin: 0; 
+        display: flex; 
+        align-items: flex-start;
+        gap: 1rem; 
+    }
+}

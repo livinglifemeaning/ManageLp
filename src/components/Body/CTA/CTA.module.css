@@ -1,0 +1,40 @@
+.box{
+    background-color: var(--c-orange); 
+    padding: 5rem var(--p-mobile); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    position: relative; 
+}
+
+.title{
+    color: #fff; 
+    font-size: 2rem; 
+    text-align: center; 
+    font-weight: 500; 
+    max-width: 17rem; 
+    line-height: 1.2em; 
+    margin-bottom: 2rem; 
+}
+
+.accent{
+    position: absolute; 
+    left: 0; 
+}
+
+@media (min-width: 750px) {
+    .box{
+        padding: 5rem var(--p-desktop); 
+        flex-direction: row;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .title{
+        font-size: 2.5rem; 
+        max-width: 30rem; 
+        text-align: left;
+        margin: 0; 
+    }
+}

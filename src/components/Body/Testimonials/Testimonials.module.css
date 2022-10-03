@@ -1,0 +1,21 @@
+.testimonials{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 3rem;
+}
+.title{
+    font-size: 2rem; 
+    color: var(--c-blue);
+    text-align: center; 
+    margin-bottom: 5rem;
+}
+
+@media (min-width: 750px) {
+    .testimonials{
+        margin-bottom: 10rem; 
+    }
+    .title{
+        margin-bottom: 8rem; 
+    }
+}

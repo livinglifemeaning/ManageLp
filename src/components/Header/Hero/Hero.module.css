@@ -1,0 +1,45 @@
+.hero{
+    display: flex; 
+    flex-direction: column-reverse; 
+    align-items: center; 
+    margin: 3rem 0 8rem; 
+    padding: 0 var(--p-mobile); 
+    justify-content: center;
+}
+
+.textBox{
+    text-align: center; 
+    margin-top: 1rem; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.title{
+    color: var(--c-blue); 
+    line-height: 1.3em; 
+    max-width: 25rem; 
+}
+
+.paragraph{
+    color: var(--c-gray);
+    margin: .5rem 0 2rem; 
+    max-width: 25rem; 
+}
+
+@media (min-width: 750px) {
+    .hero{
+        flex-direction: row; 
+        justify-content: space-between;
+        padding: 0 var(--p-desktop); 
+    }
+
+    .textBox{
+        align-items: flex-start;
+        text-align: left; 
+    }
+
+    .title{
+        font-size: 2.5rem; 
+    }
+}

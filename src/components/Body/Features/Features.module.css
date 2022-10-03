@@ -1,0 +1,44 @@
+.sectionOne {
+  padding: 0 var(--p-mobile);
+  max-width: 25rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  color: var(--c-blue);
+  font-size: 2rem;
+  line-height: 1.2em;
+}
+
+.paragraph {
+  color: var(--c-gray);
+  margin-top: 1rem;
+}
+
+.sectionTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 3rem 0 8rem;
+}
+
+@media (min-width: 750px) {
+  .features {
+    display: flex;
+    padding: 0 var(--p-desktop);
+    justify-content: space-between;
+    margin-bottom: 10rem; 
+  }
+  .sectionOne, .sectionTwo{
+    padding: 0;
+    margin: 0;
+  }
+  .title {
+    text-align: left;
+    font-size: 2rem;
+  }
+  .paragraph {
+    text-align: left;
+    max-width: 22rem; 
+  }
+}

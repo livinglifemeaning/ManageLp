@@ -1,0 +1,15 @@
+.heading{
+    padding: 2rem var(--p-mobile); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative; 
+    z-index: 10; 
+    background-color: var(--c-white);
+}
+
+@media (min-width: 750px) {
+    .heading{
+       padding: 3rem var(--p-desktop) 1.5rem;
+    }
+}

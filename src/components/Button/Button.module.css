@@ -1,0 +1,25 @@
+.btn{
+    padding: 1rem 2.5rem; 
+    border-radius: 50px; 
+    text-align: center; 
+    cursor: pointer; 
+    font-weight: 500; 
+}
+.btn:active{
+scale: .98; 
+}
+.dark{
+    background-color: var(--c-orange);
+    color: #fff; 
+    box-shadow: 0 5px 10px hsla(12, 88%, 59%, .8); 
+}
+
+.dark:hover{
+    background-color: hsl(12, 88%, 70%)
+}
+
+.light{
+    background-color: #fff;
+    color: var(--c-orange);
+    box-shadow: 0 5px 10px hsla(228, 39%, 23%, .3); 
+}

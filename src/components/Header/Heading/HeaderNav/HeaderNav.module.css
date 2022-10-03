@@ -1,0 +1,45 @@
+.navBox.mobile{
+    position: absolute; 
+    top: 100px; 
+    left: 0; 
+    z-index: 5; 
+    background: linear-gradient(hsla(228, 5%, 82%, 0.5) 40%,  hsla(240, 2%, 8%, 0.5)); 
+    width: 100vw; 
+    height: 100vh; 
+    box-shadow: 0 0 25px 25px hsla(228, 5%, 82%, 0.5);
+}
+
+.nav{
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    font-size: 1.1rem; 
+}
+
+.nav li{
+    cursor: pointer; 
+    color: var(--c-blue); 
+    font-weight: 500; 
+}
+
+.nav li:hover{
+    color: var(--c-gray);
+}
+
+.navBox.mobile .nav{
+    background-color: #fff; 
+    width: 20rem; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    padding: 2rem; 
+    gap: 1rem; 
+    border-radius: 2px; 
+    margin: 0 auto ; 
+}
+
+.navBox.desktop .nav{
+    gap: 1.5rem; 
+}
+

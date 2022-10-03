@@ -1,0 +1,35 @@
+@import "./reset.css";
+@import "./variables.css"; 
+
+
+body{
+    font-family: var(--f-primary);
+    overflow-x: hidden; 
+}
+
+.pattern{
+    position: absolute; 
+    z-index: -1; 
+}
+
+.pattern1{
+    right: -80px;  
+    top: -40px;
+}
+
+.pattern2{
+    top: 500px; 
+    right: -200px; 
+}
+
+@media (min-width: 750px) {
+    .pattern1{
+        right: -100px; 
+        top: -100px; 
+    }
+
+    .pattern2{
+        top: 1100px; 
+        left: -300px; 
+    }
+}

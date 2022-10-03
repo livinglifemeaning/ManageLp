@@ -1,0 +1,88 @@
+.footer{
+    background-color: var(--c-dark);
+    padding: 4rem var(--p-mobile);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.sectionOne, .sectionTwo, .sectionThree{
+    display: flex; 
+    flex-direction: column;  
+    align-items: center; 
+    width: 100%; 
+}
+.sectionOne{
+    margin-bottom: 3rem; 
+}
+
+.sectionTwo{
+    margin-bottom: 3rem; 
+}
+.sectionThree{
+    flex-direction: column-reverse; 
+    gap: 3rem; 
+    margin-bottom: 3rem; 
+}
+
+.inputBox{
+    display: flex; 
+    gap: 1rem; 
+    align-items: center; 
+}
+
+.input{
+    padding: .8rem 1.5rem;
+    border-radius: 50px; 
+    border: 0;  
+}
+.input:focus-visible{
+    outline: 0; 
+}
+
+.btn{
+    background-color: var(--c-orange);
+    color: #fff; 
+    text-transform: uppercase;
+    font-weight: 500; 
+    padding: .8rem 1.5rem; 
+    border-radius: 50px; 
+    cursor: pointer; 
+}
+
+.btn:active{
+    scale: .98; 
+}
+
+.btn:hover{
+    background-color: hsl(12, 88%, 70%);
+}
+.copyright{
+    font-size: .9rem; 
+    color: var(--c-gray); 
+}
+
+@media (min-width: 750px) {
+    .footer{
+        padding: 5rem var(--p-desktop);
+        flex-direction: row; 
+        width: 100%; 
+        align-items: flex-start;
+        gap: 1rem; 
+    }
+    .sectionOne, .sectionTwo, .sectionThree{
+        margin: 0; 
+    }
+    .sectionOne{
+        align-items: flex-start; 
+        justify-content: space-between;
+        gap: 5rem; 
+        height: 100%; 
+    }
+
+    .sectionThree{
+        align-items: flex-end; 
+        flex-direction: column;
+        gap: 5rem; 
+    }
+}

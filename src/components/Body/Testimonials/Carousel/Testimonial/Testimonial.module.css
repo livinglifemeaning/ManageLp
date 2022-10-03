@@ -1,0 +1,59 @@
+.testimonial {
+  background-color: var(--c-offwhite);
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 1s ease-in;
+}
+
+.testimonial.show {
+  display: flex;
+  flex-direction: column;
+  margin: 0 var(--p-mobile);
+  align-items: center;
+  text-align: center;
+  padding: 0 0.5rem 2rem;
+  opacity: 1;
+  overflow: visible;
+  height: 16rem;
+}
+
+.profile {
+  width: 80px;
+  translate: 0 -30px;
+}
+
+.name {
+  color: var(--c-blue);
+  font-weight: 700;
+}
+
+.message {
+  color: var(--c-gray);
+  line-height: 1.6em;
+}
+
+@media (min-width: 750px) {
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    margin: 0 var(--p-mobile);
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem 2rem;
+    height: 16rem;
+    opacity: 1;
+    overflow: visible;
+    width: 30rem;
+    animation: slide 40s both infinite ease-in-out;
+  }
+}
+
+@keyframes slide {
+  0% {
+    translate: 0% 0;
+  }
+  100% {
+    translate: 290% 0;
+  }
+}
