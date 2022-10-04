@@ -6,47 +6,10 @@
     overflow: hidden; 
     gap: 1rem; 
   }
-
-  .position1{
-    grid-template-areas: 'item1 item2 item3 item4' ;
-  }
-  .position1 .item1{
-    opacity: 1; 
-  }
-  .position1 .item2, .position1 .item3, .position1 .item4{
-    opacity: 0; 
-  }
+.carousel > div{
+  transition: opacity 600ms ease-in-out;
+}
   
-  .position2{
-    grid-template-areas: 'item2 item3 item4 item1' ;
-  }
-  
-  .position2 .item2{
-    opacity: 1; 
-  }
-  .position2 .item1, .position2 .item3, .position2 .item4{
-    opacity: 0; 
-  }
-  
-  .position3{
-    grid-template-areas: 'item3 item4 item1 item2' ;
-  }
-  .position3 .item3{
-    opacity: 1; 
-  }
-  .position3 .item2, .position3 .item1, .position3 .item4{
-    opacity: 0; 
-  }
-
-  .position4{
-    grid-template-areas: 'item4 item1 item2 item3' ;
-  }
-  .position4 .item4{
-    opacity: 1; 
-  }
-  .position4 .item2, .position4 .item1, .position4 .item3{
-    opacity: 0; 
-  }
 
   @media (min-width: 750px) {
     .carousel{
@@ -54,5 +17,5 @@
         translate: 320px 0; 
         margin-bottom: 4rem; 
     }
-    .position1 .item1, .position1 .item2, .position1 .item3, .position1 .item4, .position2 .item1, .position2 .item2, .position2 .item3,.position2 .item4, .position3 .item1, .position3 .item2, .position3 .item3, .position3 .item4, .position4 .item1, .position4 .item2, .position4 .item3, .position4 .item4{opacity: 1 }
+    
   }

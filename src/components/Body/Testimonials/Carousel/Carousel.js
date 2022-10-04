@@ -55,13 +55,13 @@ const Carousel = () => {
         {...handlers}
         className={`${classes.carousel} ${
           activeIndex === 0
-            ? classes.position1
+            ? "position1"
             : activeIndex === 1
-            ? classes.position2
+            ? "position2"
             : activeIndex === 2
-            ? classes.position3
+            ? "position3"
             : activeIndex === 3
-            ? classes.position4
+            ? "position4"
             : ""
         }`}
       >
