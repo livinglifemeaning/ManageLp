@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ManageLp/static/css/main.36727d62.css",
-    "main.js": "/ManageLp/static/js/main.905c7bf3.js",
+    "main.css": "/ManageLp/static/css/main.4484043b.css",
+    "main.js": "/ManageLp/static/js/main.5b72c975.js",
     "static/media/avatar-ali.png": "/ManageLp/static/media/avatar-ali.88f9155cb730934f4d7c.png",
     "static/media/avatar-shanai.png": "/ManageLp/static/media/avatar-shanai.4bbe2f95e8975736fbd8.png",
     "static/media/illustration-intro.svg": "/ManageLp/static/media/illustration-intro.cb9a8a9551ca99f99a125230d38a2c36.svg",
@@ -13,11 +13,11 @@
     "static/media/bg-simplify-section-desktop.svg": "/ManageLp/static/media/bg-simplify-section-desktop.ca40c1eebd150b1cc7dc266ce0b13d87.svg",
     "static/media/bg-simplify-section-mobile.svg": "/ManageLp/static/media/bg-simplify-section-mobile.a79c8471fa284189552dc8b07030c53d.svg",
     "static/media/bg-tablet-pattern.svg": "/ManageLp/static/media/bg-tablet-pattern.b6990a984c7bcc142d3e9783736e996a.svg",
-    "main.36727d62.css.map": "/ManageLp/static/css/main.36727d62.css.map",
-    "main.905c7bf3.js.map": "/ManageLp/static/js/main.905c7bf3.js.map"
+    "main.4484043b.css.map": "/ManageLp/static/css/main.4484043b.css.map",
+    "main.5b72c975.js.map": "/ManageLp/static/js/main.5b72c975.js.map"
   },
   "entrypoints": [
-    "static/css/main.36727d62.css",
-    "static/js/main.905c7bf3.js"
+    "static/css/main.4484043b.css",
+    "static/js/main.5b72c975.js"
   ]
 }
