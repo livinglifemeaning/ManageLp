@@ -4,7 +4,7 @@ import classes from "./Feature.module.css";
 
 const Feature = ({ number, title, paragraph }) => {
   const isDesktop = useContext(MediaContext); 
-  console.log(isDesktop); 
+
   const mobileContent = (
     <>
       <div className={classes.titleBox}>

@@ -20,7 +20,7 @@
 .title{
     color: var(--c-blue); 
     font-weight: 700; 
-    font-size: 1.1rem; 
+    font-size: 1rem; 
 }
 .paragraph{
     color: var(--c-gray); 
@@ -35,5 +35,9 @@
         display: flex; 
         align-items: flex-start;
         gap: 1rem; 
+    }
+
+    .title{
+        font-size: 1.1rem; 
     }
 }

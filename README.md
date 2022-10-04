@@ -28,4 +28,8 @@ Users should be able to:
 
 ### Notes
 
-- ugly carousel solution untill I can figure out something nicer
+- ugly carousel solution untill I can figure out something nicer | edit: made it work the way I want to using css grid, however not a very practical solution lol. I just need to figure out how to use one of these libraries or not make carousels 
+
+- learned to have 'overflow: hidden' property on main element, not body or html for it to work on mobile
+
+- https://www.npmjs.com/package/react-swipeable for making carousel swipeable 

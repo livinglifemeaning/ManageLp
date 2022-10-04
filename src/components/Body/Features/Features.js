@@ -12,11 +12,12 @@ const Features = () => {
         </p>
       </div>
       <div className={classes.sectionTwo}>
-        {featuresData.map((feature) => (
+        {featuresData.map((feature, index) => (
           <Feature
             number={feature.number}
             title={feature.title}
             paragraph={feature.paragraph}
+            key={index}
           />
         ))}
       </div>
